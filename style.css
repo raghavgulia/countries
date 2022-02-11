@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  place-items: center;
+  background-color: rgb(49, 49, 49);
+}
+
+.cont {
+  width: 80%;
+  position: relative;
+  aspect-ratio: 2 / 1;
+}
+
+.round {
+  border: 0.5px solid black;
+}
+
+h1.loading {
+  font-family: "Poiret One", cursive;
+  font-size: 100px;
+  color: rgb(202, 202, 202);
+  position: absolute;
+}
